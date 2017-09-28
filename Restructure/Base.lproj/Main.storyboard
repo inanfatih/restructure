@@ -23,12 +23,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hz1-52-Zfi">
-                                <rect key="frame" x="16" y="28" width="343" height="551"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hz1-52-Zfi">
+                                <rect key="frame" x="16" y="20" width="343" height="543"/>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.75686274509803919" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rd-xL-FyI">
-                                <rect key="frame" x="16" y="579" width="170" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rd-xL-FyI">
+                                <rect key="frame" x="16" y="563" width="170" height="43"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="cHX-eo-Jz3"/>
@@ -37,8 +37,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irN-pt-SNY">
-                                <rect key="frame" x="189" y="579" width="170" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irN-pt-SNY">
+                                <rect key="frame" x="189" y="563" width="170" height="43"/>
                                 <color key="backgroundColor" red="0.31170795420000003" green="0.77698212430000002" blue="0.87734257159999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="f8c-xu-Rf3"/>
@@ -47,8 +47,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQo-uR-uxI">
-                                <rect key="frame" x="16" y="612" width="170" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQo-uR-uxI">
+                                <rect key="frame" x="16" y="604" width="170" height="43"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="lwc-Tz-QdP"/>
@@ -57,8 +57,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2c-kP-th3">
-                                <rect key="frame" x="189" y="612" width="170" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2c-kP-th3">
+                                <rect key="frame" x="189" y="604" width="170" height="43"/>
                                 <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="wyE-VY-j7B"/>
@@ -70,9 +70,24 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="E2c-kP-th3" firstAttribute="top" secondItem="irN-pt-SNY" secondAttribute="bottom" constant="-2" id="0a4-uk-BxQ"/>
                             <constraint firstItem="Hz1-52-Zfi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2jE-QI-8v3"/>
+                            <constraint firstItem="E2c-kP-th3" firstAttribute="width" secondItem="0rd-xL-FyI" secondAttribute="width" id="6yy-jB-XQ4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="irN-pt-SNY" secondAttribute="trailing" id="Bwa-z9-ROL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="FQo-uR-uxI" secondAttribute="leading" id="EAe-iM-Wbc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="0rd-xL-FyI" secondAttribute="leading" id="FVk-4R-gyY"/>
+                            <constraint firstItem="0rd-xL-FyI" firstAttribute="top" secondItem="Hz1-52-Zfi" secondAttribute="bottom" id="Iyg-uY-acm"/>
                             <constraint firstItem="Hz1-52-Zfi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="K3i-MQ-u6I"/>
+                            <constraint firstItem="irN-pt-SNY" firstAttribute="top" secondItem="Hz1-52-Zfi" secondAttribute="bottom" id="Kgo-v6-GmU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FQo-uR-uxI" secondAttribute="bottom" constant="20" id="Lwy-Ol-tr5"/>
                             <constraint firstItem="Hz1-52-Zfi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RTk-Lb-rjM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E2c-kP-th3" secondAttribute="trailing" id="S0X-5y-pNZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E2c-kP-th3" secondAttribute="bottom" constant="20" id="UXT-ZG-YOX"/>
+                            <constraint firstItem="FQo-uR-uxI" firstAttribute="width" secondItem="0rd-xL-FyI" secondAttribute="width" id="VKN-a7-r78"/>
+                            <constraint firstItem="FQo-uR-uxI" firstAttribute="top" secondItem="0rd-xL-FyI" secondAttribute="bottom" constant="-2" id="VpY-Pr-xvS"/>
+                            <constraint firstItem="irN-pt-SNY" firstAttribute="width" secondItem="0rd-xL-FyI" secondAttribute="width" id="caM-3C-YWK"/>
+                            <constraint firstItem="E2c-kP-th3" firstAttribute="leading" secondItem="FQo-uR-uxI" secondAttribute="trailing" constant="3" id="h01-ju-ZYk"/>
+                            <constraint firstItem="irN-pt-SNY" firstAttribute="leading" secondItem="0rd-xL-FyI" secondAttribute="trailing" constant="3" id="qhf-tb-vYa"/>
                         </constraints>
                     </view>
                 </viewController>
